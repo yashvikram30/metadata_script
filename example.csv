@@ -1,0 +1,8 @@
+mint,account_data,image,status
+DWBXzV8MjkCRLxWwZEZm6B3wfrpgh4oYcYKVxSuL9ay6,"{""mint"":""DWBXzV8MjkCRLxWwZEZm6B3wfrpgh4oYcYKVxSuL9ay6"",""name"":""Doge Capital #0"",""symbol"":""DC"",""uri"":""https://arweave.net/ttU-jLyQLC5dCNM0AAcmZd-NA6HYmnQI1_At4toVTHw""}",https://www.arweave.net/56Rr1lRjtEzrCuityqhBGTzaFgiSuWNOv98RAJCgAL0?ext=png,ok
+ABC123XYZ456MintAddress1234567890ABCDEF1234,"{""mint"":""ABC123XYZ456MintAddress1234567890ABCDEF1234"",""name"":""Doge Capital #1"",""symbol"":""DC"",""uri"":""https://arweave.net/abc123def456ghi789jkl012mno345pqr678stu901""}",https://www.arweave.net/example1.png?ext=png,ok
+DEF456ABC789MintAddress0987654321FEDCBA5678,"{""mint"":""DEF456ABC789MintAddress0987654321FEDCBA5678"",""name"":""Doge Capital #2"",""symbol"":""DC"",""uri"":""https://arweave.net/def456abc789ghi012jkl345mno678pqr901stu234""}",https://www.arweave.net/example2.png?ext=png,ok
+GHI789DEF012MintAddress1111222233334444ABCD,"{""mint"":""GHI789DEF012MintAddress1111222233334444ABCD"",""name"":""Doge Capital #3"",""symbol"":""DC"",""uri"":""https://arweave.net/ghi789def012abc345jkl678mno901pqr234stu567""}",https://www.arweave.net/example3.png?ext=png,ok
+JKL012GHI345MintAddress5555666677778888EFGH,"{""mint"":""JKL012GHI345MintAddress5555666677778888EFGH"",""name"":""Doge Capital #4"",""symbol"":""DC"",""uri"":""https://arweave.net/jkl012ghi345def678abc901mno234pqr567stu890""}",https://www.arweave.net/example4.png?ext=png,ok
+
+

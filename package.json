@@ -1,0 +1,50 @@
+{
+  "name": "solana-nft-metadata-updater",
+  "version": "1.0.0",
+  "description": "Production-ready script to update Solana NFT metadata using Metaplex Token Metadata Program",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "update": "npm run build && npm start",
+    "update:dry": "npm run build && DRY_RUN=true npm start",
+    "update:confirm": "npm run build && SKIP_CONFIRM=true npm start",
+    "type-check": "tsc --noEmit",
+    "create-test-nfts": "ts-node create-test-nfts.ts",
+    "convert-keypair": "ts-node convert-keypair.ts",
+    "verify-updates": "ts-node verify-updates.ts",
+    "check-authority": "ts-node check-authority.ts"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "metadata",
+    "metaplex",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@solana/web3.js": "^1.91.1",
+    "@solana/spl-token": "^0.4.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.1",
+    "cli-progress": "^3.12.0",
+    "chalk": "^4.1.2",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/cli-progress": "^3.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
